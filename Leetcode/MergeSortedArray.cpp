@@ -10,15 +10,12 @@
 #include <cstring>  
 #include <climits>  
 #include <cstdlib>  
-#include <numeric>  
-#include "LeetCode.h"
-
+#include <numeric> 
 using namespace std;
-
-int main()
+void MergeSort()
 {
-	MergeSort(); // Call the function from MergeSortedArray.cpp
-	cin.ignore();
-	cin.get();
-	return 0;
+	cout << "Enter a number:";
+	int n;
+	cin >> n;
+	cout << "You number is :" << n << endl;
 }
