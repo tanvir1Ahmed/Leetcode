@@ -14,8 +14,12 @@
 using namespace std;
 void MergeSort()
 {
-	cout << "Enter a number:";
-	int n;
-	cin >> n;
-	cout << "You number is :" << n << endl;
+	int m=0, n=0,a;
+	cin >> m;
+	int arr[m];
+	for (int i = 0; i < m; i++)
+	{
+		cin >> a;
+
+	}
 }
